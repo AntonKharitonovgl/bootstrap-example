@@ -1,0 +1,62 @@
+
+.topmenu{
+	
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 0 8px 1px;
+}
+
+.topmenu_basa{
+	width: 1280px;
+	height: 100px;
+	margin:0 auto;
+	border:1px solid red;
+}
+
+.container-fluid {
+	background-color: #ffffff;
+}
+
+.logoimg{
+	height: 90px;
+	width: 130px;
+	background-image:url("../images/logo3.jpg");
+}
+
+.logo {
+	width: 250px;
+	margin-left:15px;
+	margin-top:27px;
+}
+
+.logo p {
+	font-size: 25px;
+	font-family: arial black;
+	font-weight: bold;
+}
+
+.punkt_menu {
+    width: auto;
+    margin-top:40px;
+    border:1px solid red;
+}
+
+.punkt_menu p{
+    font-size: 14px;
+    font-family: arial black;
+    color: #212121;
+
+}
+
+.punkt_menu2 {
+    width: auto;
+    margin-top:40px;
+    border:1px solid red;
+}
+
+
+.punkt_menu2 p{
+    font-size: 14px;
+    font-family: arial black;
+    color: #ff6735;
+}
