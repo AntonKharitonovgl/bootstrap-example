@@ -1,16 +1,21 @@
 
+body {
+	background-color: #f4f1f1;
+}
+
 .topmenu{
-	
 	width: 100%;
 	height: 100px;
 	box-shadow: 0 0 8px 1px;
+	background-color: #ffffff;
+	position:relative;
+    z-index:9999;   
 }
 
 .topmenu_basa{
-	width: 1280px;
+	width: 1284px;
 	height: 100px;
 	margin:0 auto;
-	border:1px solid red;
 }
 
 .container-fluid {
@@ -37,26 +42,37 @@
 
 .punkt_menu {
     width: auto;
-    margin-top:40px;
-    border:1px solid red;
+    margin-top:40px;    
 }
 
 .punkt_menu p{
     font-size: 14px;
     font-family: arial black;
     color: #212121;
-
 }
 
 .punkt_menu2 {
     width: auto;
     margin-top:40px;
-    border:1px solid red;
-}
-
+  }
 
 .punkt_menu2 p{
     font-size: 14px;
     font-family: arial black;
     color: #ff6735;
+    text-align: center;
+}
+
+.punkt_menu3 {
+    width: auto;
+    font-family: arial black;
+    margin-top:40px;
+    text-align: right;
+}
+
+.mainbody{
+	background-color: #ffffff;
+	width: 1284px;
+	height: auto;
+	margin:0 auto;
 }
