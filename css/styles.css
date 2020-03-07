@@ -85,14 +85,18 @@ body {
 
 
 .col2{
-height: 500px;
+max-height: 400px;
 width: 121%;
-margin-left: -101px;	
+margin-left: -101px;
+padding-bottom: 0px;
+margin-bottom: 0px;	
 }
 
 .col3{
-height: 500px;
+max-height: 500px;
 width: 100%;
+padding-bottom: 0px;
+margin-bottom: 0px;		
 }
 
 .info{
@@ -106,7 +110,91 @@ width: 100%;
 }
 
 .info p{
-	font-size: 13px;
+	font-size: 14px;
     font-family: arial black;
     color: #b6b6b6;
 }
+.compicon{
+margin-top: 50px;
+margin-left: 60px;
+width: 400px; 
+height: 400px;
+background: #e1d7d7;
+border-radius: 50%;
+}
+
+.compicon img{
+margin-top: 83px;
+margin-left: 37px;
+max-width: 325px;
+max-height: 335px;
+}
+
+.knopka_info{
+	margin-top: 30px;
+	width:180px;
+	height:60px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px 1px;
+	background:linear-gradient(to top,#ea4e1b,#ff6735);
+	padding-top: 10px;
+}
+
+.knopka_info:hover{
+	margin-top: -80px;
+	padding-top: 10px;
+	width:180px;
+	height:60px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px 1px;
+	background:linear-gradient(to top,#ed5b07,#ff7635);
+}
+
+.knopka_info a {
+font-size: 27px;
+font-family: Arial Bold;
+text-decoration: none;
+color: #fff6eb;
+margin-left: 42px;
+}
+
+.blocoficons{
+	width: 100%;
+	height: 540px;
+	background-color: #d92f00;
+}
+.blockofh2{
+	width: 100%;
+	height: 160px;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+.headname{
+	width: 420px;
+	height: 100px;
+	margin-left: 200px;
+	margin:0 auto;
+}
+
+.headname h2{
+	font-size: 35px;
+    font-family: arial black;
+    color: #ffffff;
+    text-align: center;
+}
+
+.krugicon{
+	border: 7px solid white;
+    height: 144px;
+    width: 144px;
+    border-radius: 72px;
+    margin: 0 auto   
+}
+.krugicon span{
+	margin-top: 29px;
+	margin-left: 29px;
+	font-size: 70px;
+	color: white;
+}
+  	        
