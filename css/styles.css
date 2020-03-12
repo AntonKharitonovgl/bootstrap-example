@@ -141,16 +141,16 @@ max-height: 335px;
 }
 
 .knopka_info:hover{
-	margin-top: -80px;
-	padding-top: 10px;
+	margin-top: 30px;
 	width:180px;
 	height:60px;
 	border-radius: 10px;
 	box-shadow: 0 0 3px 1px;
 	background:linear-gradient(to top,#ed5b07,#ff7635);
+	padding-top: 10px;
 }
 
-.knopka_info a {
+.knopka_info a, .knopka_info2 a {
 font-size: 27px;
 font-family: Arial Bold;
 text-decoration: none;
@@ -197,4 +197,144 @@ margin-left: 42px;
 	font-size: 70px;
 	color: white;
 }
-  	        
+ 
+.texticon{
+	height: 50%;
+	width: 100%;
+	margin-top: 17px;
+} 
+
+.texticon p{
+	font-size: 14px;
+    font-family: arial black;
+    color: #ffffff;
+    text-align: center;
+} 
+
+.blockzakaz{
+	width: 100%;
+	height: 660px;
+	background-color: #ffffff;
+}
+
+.headname2 h2{
+	margin-top: -10px;
+	font-size: 35px;
+    font-family: arial black;
+    color: #000000;
+    text-align: center;
+
+}
+
+.imageblock {
+	width: 100%;
+	height: 222px;
+	border: 3px solid #e9e3db;
+}
+
+.imageblock img{
+	margin-left: 15px;
+    margin-top: 0px;
+}
+
+.textzakazblock, .textotzivi{
+	width: 100%;
+	height: auto;
+}
+
+.textzakazblock p{
+	text-align: center;
+	color: #7c7c7c;
+	margin-top: 10px;
+	font-family: arial regular;
+	font-size: 13px;
+}
+
+.textzakazblock h1{
+	text-align: center;
+	font-size: 20px;
+    font-family: arial black;
+    color: #212121;
+    margin-top: 25px;
+}
+
+.knopka_info2{
+	margin-top: 30px;
+	margin-left: 33px;
+	width:180px;
+	height:60px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px 1px;
+	background:linear-gradient(to top,#ea4e1b,#ff6735);
+	padding-top: 10px;
+}
+
+.knopka_info2:hover{
+	margin-top: 30px;
+	margin-left: 33px;
+	width:180px;
+	height:60px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px 1px;
+	background:linear-gradient(to top,#ed5b07,#ff7635);
+	padding-top: 10px;
+}
+
+.blockotzivi{
+	width: 100%;
+	height: 660px;
+	background-image:url("../images/pinkfon.jpg");
+}
+.textotzivi{
+	width: 110%;
+	height:auto;
+	margin: 7%;
+	margin-top: 30px;
+	margin-left: -15px;
+}
+
+p.speech {
+	width: 100%
+	height:auto;
+	position: relative;
+	text-align: left;
+	border: 2px solid #e9e3db;
+	color: #212121;
+	font-family: arial regular;
+	font-size: 14px;
+	padding: 20px;
+}
+
+.blockcommentator{
+	margin: 20px;
+	height: auto;
+}
+
+.faceimage {
+   width: 60px;
+   height: 60px;
+   display: inline-block;
+   float: left;
+}
+
+.nameoface h2{
+	text-align: center;
+	font-size: 14px;
+    font-family: arial black;
+    color: #212121;
+    margin-top: 6px;
+    padding-top: 5px;
+}
+
+.profi{
+	
+}
+
+.profi p{
+	text-align: left;
+	color: #7c7c7c;
+	font-family: arial regular;
+	font-size: 13px;
+	margin-left: 5px;
+	text-align: center;
+}
