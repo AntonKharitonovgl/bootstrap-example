@@ -338,3 +338,87 @@ p.speech {
 	margin-left: 5px;
 	text-align: center;
 }
+
+.blockprivleck{
+	width: 100%;
+	height: 260px;
+	border: 20px solid #d92f00;
+}
+
+.blockknopkaprivlek{
+	margin-top: 80px;
+}
+
+.privlekknopka{
+	width:180px;
+	height: auto;
+	margin:0 auto;
+}
+
+.textprivlek{
+	margin-top: 80px;
+	margin-left: 200px;
+	width:500px;
+}
+.textprivlek h2{
+	font-size: 18px;
+    font-family: arial black;
+    color: #212121
+}
+.blockrabot{
+	width: 100%;
+	height: 660px;
+	background-color: #ffffff;
+}
+
+.headnamerabot h2{
+	margin-top: 45px;
+	font-size: 35px;
+    font-family: arial black;
+    color: #000000;
+    text-align: center;
+
+}
+
+.imagerabot{
+	margin-top: 45px;
+	height: auto;
+}
+.nizimage1{
+	margin-top: 8px;
+}
+
+.rebotimage{
+	width:270px;
+	height:255px;
+}
+
+.blockpodpiska{
+	width: 100%;
+	height:auto;
+	background-color: #ebe6e6;
+}
+
+.headnamepodpiska{
+	width: 30%;
+	margin: 0 auto;
+	height:auto;
+}
+
+.headnamepodpiska h2{
+	font-size: 22px;
+    font-family: arial black;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #000000;
+    text-align: center;
+}
+.blockoform{
+	width: 50%;
+	margin:0 auto;
+	height: auto;
+}
+
+.formamemail{
+	width: 70%;
+}
