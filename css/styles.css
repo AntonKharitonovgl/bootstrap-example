@@ -414,11 +414,124 @@ p.speech {
     text-align: center;
 }
 .blockoform{
-	width: 50%;
+	width: 60%;
 	margin:0 auto;
-	height: auto;
+	height: 60px;
 }
 
+
 .formamemail{
-	width: 70%;
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+
+.formamemail p{
+	font-size: 22px;
+	color: #7c7c7c;
+	font-family: arial regular;
+
+}
+
+.pustota{
+	height:80px;
+}
+
+.butpodpisatsa{
+	width: 20%;
+	display: inline-block;
+}
+
+.popdis_but{
+	margin-top: 1px;
+	margin-left: 25px;
+	width:240px;
+	height:36px;
+	border-radius: 0px 8px 8px 0; 
+	box-shadow: 0 0 3px 1px;
+	background:linear-gradient(to top,#ea4e1b,#ff6735);
+	padding-top: 3px;
+}
+
+.popdis_but:hover{
+	margin-top: 1px;
+	margin-left: 25px;
+	width:240px;
+	height:40px;
+	border-radius: 0px 8px 8px 0; 
+	box-shadow: 0 0 3px 1px;
+	background:linear-gradient(to top,#ed5b07,#ff7635);
+	padding-top: 3px;
+}
+ 
+.popdis_but a{
+font-size: 25px;
+font-family: Arial Bold;
+text-decoration: none;
+color: #fff6eb;
+margin-left: 45px;
+margin-top: -10px;
+}
+
+.mapblock{
+    width: 100%;
+	height:auto;
+	background-color: #ffffff;	
+}
+
+.footblock{
+    width: 100%;
+	height:300px;
+	background-color: #141415;	
+	
+}
+
+.upfoot{
+	width: 100%;
+	height: 200px;
+}
+
+.firstblock {
+	padding-top: 50px;
+	width: 80%;
+	margin:0 auto;
+	color: #fff6eb;
+	font-size: 15px;
+    font-family: Arial Bold;
+}
+
+.secondblock {
+	padding-top: 25px;
+	width: 80%;
+	margin:0 auto;
+	color: #fff6eb;
+    font-family: Arial Bold;
+}
+
+.secondblock h1{
+font-size: 32px;
+}
+
+.secondblock h2{
+	font-size: 16px;
+}
+
+.thirdblock {
+	padding-top: 30px;
+	width: 80%;
+	margin:0 auto;
+	color: #fff6eb;
+    font-family: Arial Bold;
+}
+
+.thirdblock h2{
+
+	text-align: center;
+	font-size: 18px;
+}
+
+.cherta {
+	width: 100%;
+	height: 2px;
+	background-color: #232324;	
 }

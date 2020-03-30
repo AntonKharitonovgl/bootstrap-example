@@ -4,3 +4,5 @@ $(".example").vegas({
         { src: "/images/logo3.jpg" }
     ]
 });
+
+
