@@ -6,3 +6,7 @@ $(".example").vegas({
 });
 
 
+$(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+
