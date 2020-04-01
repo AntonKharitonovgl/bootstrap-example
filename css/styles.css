@@ -67,6 +67,7 @@ body {
     width: auto;
     font-family: arial black;
     margin-top:40px;
+    margin-left: 30px;
     text-align: right;
 }
 
@@ -75,6 +76,41 @@ body {
 	width: 1284px;
 	height: auto;
 	margin:0 auto;
+}
+
+.superslaider img {
+
+}
+
+.textslaider1{
+	position: absolute; 
+	width: 320px;
+	top: 30px;
+	left:600px;
+}
+
+.textslaider2{
+	position: absolute; 
+	width: 320px;
+	top: 30px;
+	left:700px;
+}
+
+.textslaider1 h3{
+	font-size: 32px;
+	color: #ffffff;
+	font-family: arial black;
+}
+
+.textp1{
+	width: 520px;
+}
+
+.textp1 p{
+	font-size: 14px;
+	color: #a6a5a5;
+	font-family:  Arial Bold;
+
 }
 
 .contant_main{

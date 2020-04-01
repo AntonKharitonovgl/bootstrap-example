@@ -7,6 +7,12 @@ $(".example").vegas({
 
 
 $(document).ready(function(){
-      $('.slider').bxSlider();
+      $('.slider').bxSlider({
+  pager: false,
+   captions: true,
+   nextText: '',
+   prevText: '',
+   easing: 'jswing',
+   });
     });
 
