@@ -71,9 +71,12 @@ body {
     width: auto;
     font-family: arial black;
     margin-top:40px;
-    color: #212121;
     margin-left: 30px;
     text-align: right;
+}
+
+.punkt_menu3 p{
+	color: #212121;
 }
 
 .mainbody{
