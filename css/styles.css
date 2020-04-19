@@ -63,8 +63,21 @@ body {
 .punkt_menu2 p{
     font-size: 14px;
     font-family: arial black;
-    color: #ff6735;
+    color: #212121;
     text-align: center;
+}
+
+.punkt_menu a,
+.punkt_menu2 a,
+.punkt_menu3 a{
+	text-decoration: none;
+}
+
+.punkt_menu p:hover,
+.punkt_menu2 p:hover,
+.punkt_menu3 p:hover
+{
+	color: #ff6735;
 }
 
 .punkt_menu3 {
@@ -113,7 +126,7 @@ body {
 }
 
 .fix-min {
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 0.4);
 	width: 400px;
 	height: 500px; 
 	opacity: 1;
@@ -130,8 +143,6 @@ body {
 	float: right;
 	margin-right: 0px;
 	z-index: 101;
-	background-color: rgba(0, 0, 0, 1); 
-	opacity: 0.4;
 }
 
 .textp1{
@@ -371,20 +382,25 @@ p.speech {
 	padding: 20px;
 }
 
-.tre-on {
-	width: 30px;
-	height: 30px;
-	margin-left: 30px;
-	margin-top: -25px;
-	background-color: #fff;
-	border-right: 2px solid #e9e3db;
-	border-bottom: 2px solid #e9e3db;
-	
-	
-	  -moz-transform: rotate(45deg);  /* Firefox */
-  -o-transform: rotate(45deg);  /* Opera */
-  -webkit-transform: rotate(45deg);  /* Safari y Chrome */
-  }
+
+.textoblako {
+    width: 300px;
+    border: 2px solid #e9e3db;
+    border-radius: 2px;
+    padding: 18px;
+    position: relative;
+   }
+   .textoblako::before, .textoblako::after {
+    content: ''; 
+    position: absolute;
+    left: 35px; bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #e9e3db;
+   }
+   .textoblako::after {
+    border-top: 10px solid white;
+    bottom: -18px; 
+   }
 
 .blockcommentator{
 	margin: 20px;
