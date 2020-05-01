@@ -17,7 +17,7 @@ body {
 }
 
 .topmenu_basa{
-	width: 1284px;
+	width: 100%;
 	height: 100px;
 	margin:0 auto;
 }
@@ -33,6 +33,7 @@ body {
 }
 
 .logo {
+
 	width: 250px;
 	margin-left:15px;
 	margin-top:27px;
@@ -42,6 +43,7 @@ body {
 	font-size: 25px;
 	font-family: arial black;
 	font-weight: bold;
+	color: black;
 }
 
 .punkt_menu {
@@ -92,6 +94,15 @@ body {
 	color: #212121;
 }
 
+.menu__icon 
+{    
+	width: 75%;
+	margin-top: 40px;
+	cursor: pointer;
+	position: absolute;
+	display: none;
+}
+
 .mainbody{
 	background-color: #ffffff;
 	width: 1284px;
@@ -132,6 +143,9 @@ body {
 	opacity: 1;
 }
 
+.fix-min h1,p{
+	color: #fff;
+}
 .superslaider{
 	z-index: 100;
 }
@@ -632,3 +646,74 @@ font-size: 32px;
 	height: 2px;
 	background-color: #232324;	
 }
+
+
+
+
+ .menu-line {
+   width: 50%;
+   height: auto;
+   margin: 7px auto;
+   border:1px solid #000;
+}
+
+.menu__icon 
+{
+	margin-top: 40px;
+	cursor: pointer;
+	position: relative;
+}
+
+.menu__links {
+    
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+    float:right;
+  }
+
+@media screen and (max-width:1210px) {
+
+ 
+   .punkt_menu2,.punkt_menu,.punkt_menu3{
+   	display: none;
+   }
+
+   .menu-line {
+   width: 50%;
+   height: auto;
+   margin: 7px auto;
+   border:1px solid #000;
+}
+
+.menu__icon 
+{    
+	display: inline-block;
+	width: 75%;
+	margin-top: 40px;
+	cursor: pointer;
+	position: absolute;
+}
+
+.menu__links {
+    
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+    float:right;
+  }
+
+  }
+  
